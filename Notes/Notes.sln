@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes", "Notes\Notes.csproj", "{611AF13E-99E1-45A1-87B5-70585488A488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{74E7559D-55F7-4833-B3A0-0471317242CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F2C70562-88C5-472B-B90A-92B7BC200B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{996CB208-7006-4C8C-88C5-64A59E582ACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1F80C279-2EE5-4AFA-AEBA-3416AFFA5EFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CC97DEBA-EA77-4BE7-85A2-6BF67BDCB990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611AF13E-99E1-45A1-87B5-70585488A488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611AF13E-99E1-45A1-87B5-70585488A488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611AF13E-99E1-45A1-87B5-70585488A488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611AF13E-99E1-45A1-87B5-70585488A488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{611AF13E-99E1-45A1-87B5-70585488A488} = {CC97DEBA-EA77-4BE7-85A2-6BF67BDCB990}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E5A4791-F5C6-4DD4-BB82-5C1DB30AA500}
+	EndGlobalSection
+EndGlobal
